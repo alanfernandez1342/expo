@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/nysl_3.css">
+	<title>Home</title>
+</head>
+
+<body>
+	
+	<div id="backstyle3"></div>
+	<header>
+		
+	</header>
+	<div id="titulo-logo">
+		<div><img src="imagenes/nysl_logo.png" id="logo" alt="logo de NYSL">
+		</div>
+		<div id="titulo">
+			<h1>NorthSide Youth Soccer League</h1>
+		</div>
+	</div>
+	
+
+	<main class="menu">
+
+		<section id="home">
+			<nav>
+
+				<a href="#home" id="seleccionado">Home</a>
+				<a href="#about" class="noseleccionado">About</a>
+				<a href="#contact" class="noseleccionado">Contact</a>
+				<a href="#rules" class="noseleccionado">Rules</a>
+				<a href="#sche" class="noseleccionado">Schedule</a>
+				<a href="#form" class="noseleccionado">Register</a>
+
+			</nav>
+			<div id="flexhome">
+			<div id="divsub">
+				<h2 id="text">UPCOMING EVENTS</h2>
+			</div>
+			<div>
+				<h3>August 4</h3>	
+				<p class="espaciado">NYSL Fundraiser</p>
+			</div>
+			<div>
+				<h3>August 16</h3>
+				<p class="espaciado">Season Kick-Off: Meet the Teams</p>
+			</div>
+			<div>
+				<h3>September 1</h3>
+				<p class="espaciado">First Game of the Season (Check Game 
+				Schedule for details)</p>
+			</div>
+			</div>
+		</section>
+		<section id="about">
+			<nav>
+
+				<a href="#home" class="noseleccionado">Home</a>
+				<a href="#about" id="seleccionado">About</a>
+				<a href="#contact" class="noseleccionado">Contact</a>
+				<a href="#rules" class="noseleccionado">Rules</a>
+				<a href="#sche" class="noseleccionado">Schedule</a>
+				<a href="#form" class="noseleccionado">Register</a>
+
+			</nav>
+			<div id="divsub">
+				<h2 id="text">ABOUT NYSL</h2>
+			</div>
+			<h3 class="h3about">Mission</h3>
+			<p>To support young athletes living in Chicago's northisde neighborhoods, who have an interest in learning and playing soccer, with opportunities to learn and parctice skills related to the game of soccer, specifically those skills around team cooperation and good sportsmanship</p>
+			<H3 class="h3about">Vision</H3>
+			<p>The Northside Youth Soccer league aspires to develop strong, well-rounded, and mindful athletes through the building of character, self-discipline, and leadership.</p>
+			<H3 class="h3about">General Information</H3>
+			<p>The Northside Yout Soccer League was estabilished in 1996 to provide athletes residing in Chicago's northside neighborhoods an environment in which to learn and play soccer. Yo be a member of NYSL is ran by a small full-time staff, and relies on the generous volunteer time of parents and previous league members.</p>
+		</section>
+		<section id="contact">
+			<nav>
+
+				<a href="#home" class="noseleccionado">Home</a>
+				<a href="#about" class="noseleccionado">About</a>
+				<a href="#contact" id="seleccionado">Contact</a>
+				<a href="#rules" class="noseleccionado">Rules</a>
+				<a href="#sche" class="noseleccionado">Schedule</a>
+				<a href="#form" class="noseleccionado">Register</a>
+
+			</nav>
+			<div id="divsub">
+				<h2 id="text">CONTACT</h2>
+			</div>
+			<p>Please email us at 
+				<a href="mailto:nysl@chisoccer.org">nysl@chisoccer.org</a>
+			</p>
+			<p>We will reply to your email as soon as we can.</p>
+		</section>
+		<section id="form">
+			<nav>
+
+				<a href="#home" class="noseleccionado">Home</a>
+				<a href="#about" class="noseleccionado">About</a>
+				<a href="#contact" class="noseleccionado">Contact</a>
+				<a href="#rules" class="noseleccionado">Rules</a>
+				<a href="#sche" class="noseleccionado">Schedule</a>
+				<a href="#form" id="seleccionado">Register</a>
+
+			</nav>
+			<div id="divsub">
+				<h2 id="text">REGISTER</h2>	
+			</div>
+			<form action="show_data.html">
+				<div>
+					<fieldset>
+						<legend>Perfil</legend>	
+						<div>
+							<label>Player's First Name: <input type="text" name="firstname"></label>
+							<label>Last Name: <input type="text" name="lastname"></label>
+						</div>
+						<label>Street Adress: <input type="text" name="street"></label>
+						<div>
+							<label>City:<input type="text" name="city"></label>
+							<label>Zip Code: <input type="text" name="zip_code"></label>
+						</div>
+						<div>
+							<label>Birth Date: <input type="date" name="date"></label>
+							<label>Gender:<input type="radio" name="Gender" value="Female">Female</label> 
+							<label><input type="radio" name="Gender" value="Male">Male</label>
+						</div>
+						<div>
+							<label>Grade:<input type="radio" name="grade">Pre-School</label>
+							<label><input type="radio" name="grade" value="1st">1st</label>
+							<label><input type="radio" name="grade" value="2nd">2nd</label>
+							<label><input type="radio" name="grade" value="3rd">3rd</label>
+							<label><input type="radio" name="grade" value="4th">4th</label>
+							<label><input type="radio" name="grade" value="5th">5th</label>
+						</div>
+						<label>Parent/Guardian:<input type="text" name="parentG"></label>
+						<div>
+							<label>Contact Phone: <input type="tel" name="phone"></label>
+							<label>Contact Email: <input type="email" name="email"></label>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend>Near Schools</legend>
+						<h3>Which elementary schools do you live near?</h3>
+						<div class="selectmode">
+
+							First Closest School:
+							<select>
+								<option value="firstschool">AJ Katzenmaier</option>
+								<option value="firstschool">Marjorie P Hart</option>
+								<option value="firstschool">Greenbay</option>
+								<option value="firstschool">Howard A Yeager</option>
+								<option value="firstschool">South Elementary</option>
+								<option value="firstschool">North Elementary</option>
+							</select>
+							<div class="selectmode">
+								Second Closest School:
+								<select>
+									<option value="secondschool">AJ Katzenmaier</option>
+									<option value="secondschool">Marjorie P Hart</option>
+									<option value="secondschool">Greenbay</option>
+									<option value="secondschool">Howard A Yeager</option>
+									<option value="secondschool">South Elementary</option>
+									<option value="secondschool">North Elementary</option>
+								</select>
+
+							</div>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend>Positions</legend>
+
+						<h3>What Position(s) do you normally play? (check all that apply)</h3>
+						<label>
+							<input type="checkbox" name="Positions" value="forward">Forward 
+						</label>
+						<label>
+							<input type="checkbox" name="Positions" value="midfield">Midfield
+						</label>
+						<div id="arribadeuniform" >
+							<label>
+								<input type="checkbox" name="Positions" value="defense">Defense 
+							</label>
+							<label>
+								<input type="checkbox" name="Positions" value="goalkeeper">Goalkeeper
+							</label>
+						</div>
+
+						<h3>What Position(s) do you want play? (check all that apply)</h3>
+						<label>
+							<input type="checkbox" name="Positions" value="forward">Forward 
+						</label>
+						<label>
+							<input type="checkbox" name="Positions"  value="midfield">Midfield
+						</label>
+						<div id="arribadeuniform" >
+							<label>
+								<input type="checkbox" name="Positions"  value="defense">Defense 
+							</label>
+							<label>
+								<input type="checkbox" name="Positions" value="goalkeeper">Goalkeeper
+							</label>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend>Uniform</legend>
+						<input  type="checkbox" name="Uniform" value="has"><span class="negritaform">Already Have a Uniform</span></input>
+						<div>
+							<label><span class="titulo-formularios">Jersey Size:</span>
+								<select name="jerseysize">
+									<option value="small">Small</option>
+									<option value="youthSmall">Youth Small</option>
+									<option value="medium">Medium</option>
+									<option value="youthMedium">Youth Medium</option>
+									<option value="large">Large</option>
+									<option value="youthLarge">Youth Large</option>
+									<option value="extraLarge">Extra Large</option>
+
+
+								</select>
+							</label>
+						</div>
+						<div id="shortsize">
+							<label>Short Size:
+								<select name="shortsize">
+									<option value="small">Small</option>
+									<option value="youthSmall">Youth Small</option>
+									<option value="medium">Medium</option>
+									<option value="youthMedium">Youth Medium</option>
+									<option value="large">Large</option>
+									<option value="youthLarge">Youth Large</option>
+									<option value="extraLarge">Extra Large</option>
+
+								</select>
+							</label>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend>Permission</legend>
+
+						<span class="negritaform">Permission to Play</span>
+						<p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
+							Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
+							accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+							employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or
+							on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL
+							sponsored activities, which transportation.
+							<p>
+								By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the
+								cancellation policy and agree to its terms. 
+							</p>
+						</p>
+
+						<div>
+							<label>Parent/Guardian Signature: <input type="text" name="Parents"></label>
+							<label>Date: <input type="date" name="datef"></label>
+							<input type="submit" name="submit" value="SEND" id="send"> 
+						</div>
+					</fieldset>
+				</div>
+			</form>
+		</section>
+		<section id="rules">
+			<nav>
+
+				<a href="#home" class="noseleccionado">Home</a>
+				<a href="#about" class="noseleccionado">About</a>
+				<a href="#contact" class="noseleccionado">Contact</a>
+				<a href="#rules" id="seleccionado">Rules</a>
+				<a href="#sche" class="noseleccionado">Schedule</a>
+				<a href="#form" class="noseleccionado">Register</a>
+
+			</nav>
+			<div id="divsub">
+				<h2 id="text">RULES OF PLAY & POLICIES</h2>
+			</div>
+			<p id="subtitulo">FIFA rules shall govern NYSL play except as modified herein.</p>
+			<div id="listas">
+				<h3 class="list">SPORTSMANSHIP</h3>
+				<ul>
+					<li>
+						The common interest that members of the Association share is to inspire
+						youth to practice the ideals of sportsmanship and fair play. Any player,
+						coach, team, parent, spectator, administrator or referee whose behavior
+						detracts from this purpose is subject to disciplinary action regardless of
+						technical soccer background, expertise, accomplishments or standing.	
+					</li>
+				</ul>
+				<h3 class="list">FIFA FIELD REGULATIONS</h3>
+				<ol>
+					<li>
+						<span class="spanitems">DIMENSIONS.</span> FIFA Law 1 provides for flexible external field dimensions
+						within a given maximum and minimum width and length. These
+						dimensions should be adhered to for all fields used by teams under 12
+						and older.
+					</li>
+					<li>
+						<span class="spanitems">COMPETITION FIELDS. </span> Fields used within the competition program must
+						be a minimum of 100 x 60 yards. Leagues, districts or associations
+						participating in the state competition program that are unable to provide a
+						field that meets these minimum requirements must advise the State
+						Competition Board which will assign its Fields Committee to inspect the
+						field and recommend to the Board whether or not a waiver of the minimum
+						dimensions should be granted. Teams from leagues, districts or
+						associations that are unable to provide an acceptable field may be
+						required to play all their games away.
+					</li>
+					<li>
+						<span class="spanitems">FIELDS USED BY YOUNG AGE GROUPS.</span> 
+						<ol class="interno">
+							<li>
+								U-6 play on a field approximately 20 X 40 yards with no penalty
+								areas. Fields for older age groups should be progressively larger.
+
+							</li>
+							<li>
+								U-8 plays on a field 40-50 yards in length and 20-30 yards width.
+							</li>
+							<li>
+								U-10 play on a field 70-80 yards in length and 40-50 yards in 	width.
+							</li>
+							<li>
+								In addition, fields used by young age groups may have their internal
+								dimensions and size of goal similarly modified.
+							</li>
+						</ol>
+					</li>
+					<li>
+						<span class="spanitems">TEAM BENCH AREAS</span> 
+						<ol class="interno">
+							<li>Recreation & District Programs.
+								<ul>
+									<li>
+										The decision for team/spectator placement on the field will
+										be made by the governing body of that team. A team’s
+										bench area shall consist of that area at least one (1) yard
+										away from the touchline and extending to twenty yards (20)
+										both ways from the halfway line. In the event that field 
+										2
+										conditions require team benches to be on the same side of
+										the field, a team’s bench area shall consist of that area two
+										(2) yards away from the touchline and extending twenty
+										yards one (1) way from the halfway line.
+									</li>
+									<li>
+										The home team has first choice as to where it wishes to
+										locate its bench area. Coaches and substitutes are required
+										to remain within their bench area during the game. Parents
+										and spectators should occupy the same side of the field as
+										the team they are supporting.
+									</li>
+								</ul>
+								<li>
+									State Competition League Only.
+									<ul>
+										<li>
+											Except where it is determined by the referee to be
+											impractical, team bench areas shall be along the same
+											touchline. Each team bench area shall be located two yards
+											outside the touchline, beginning not closer than five yards
+											from midfield and extending not further than twenty yards
+											from midfield. The home team shall have the right to choose
+											the location of its bench area. Coaches and substitutes must
+											remain within their team's bench area during the game
+										</li>
+										<li>
+											Parents and spectators must occupy the sideline opposite
+											the team bench areas. Supporters of a team must assemble
+											on the side of the midfield facing the team bench area of that
+											team. There shall be a buffer zone extending ten yards on
+											each side of the midfield that may not be occupied by
+											parents or spectators. Match officials shall be empowered to
+											enforce these provisions and may suspend or terminate
+											games in the event that any team, coach, parent, or
+											spectator declines to abide by requests from match officials
+											to comply with these standards.
+										</li>
+									</ul>
+								</li>
+							</ol>
+						</li>
+					</ol>
+					<h3 class="list">EQUIPMENT</h3>
+					<ul>
+						<li>
+							We will abide by and accept equipment standards as defined by FIFA,
+							USSF and USYSA.
+						</li>
+					</ul>
+					<h3 class="list">NUMBER OF PLAYERS</h3>
+					<ul>
+						<li>
+							<span class="spanitems">TEAM SIZE.</span> Except as noted below, team rosters shall consist of not less
+							than eleven nor more than eighteen players. A team must have at least
+							seven (7) players present and able to play before referees are permitted to
+							start a sanctioned game. No more than eleven (11) players per team may
+							be on the field at any one time during the game.
+						</li>
+						<li>
+							<span class="spanitems">SIZE OF AGE GROUP TEAMS.</span>  In order to give player’s maximum
+							opportunity to develop in the game of soccer, U-6 through U-1O play
+							modified rules and size of roster as stated in United States Youth Soccer
+							Association (USYSA) rules. It is strongly recommended that U-6 and U-8
+							play 4 v 4. UYSA shall not sanction games involving teams under 10 or
+							younger unless such games are conducted with not more than eight (8)
+							players per side. (National rule 4036 section 2)
+						</li>	
+						<li>
+							Recreational/Developmental players at other ages or where numbers in
+							the playing area are low are strongly encouraged to play small-sided
+							games on reduced field size.
+						</li>
+					</ul>
+					<h3 class="list">SUBTITUTIONS</h3>
+					<ul>
+						<li>
+							Teams may make an unlimited number of substitutions at the times
+							indicated below. A player who has been replaced may re-enter the game
+							as a substitute at a later time.
+							<ol>
+								<li>
+									Prior to a throw-in your favor.
+								</li>
+								<li>
+									Prior to a goalkick by either team.
+								</li>
+								<li>
+									After a goal by either team.
+								</li>
+								<li>
+									After an injury, by either team, when the referee stops play
+								</li>
+								<li>
+									At half time.
+								</li>
+								<li>When a player has been “cautioned”, only the player receiving
+									“caution” may be substituted.
+								</li>
+							</ol>
+
+						</li>
+					</ul>
+					<h3 class="list">CONFISCATED PLAYER PASSES</h3>
+					<ul>
+						<li>
+							Passes of any individual(s) ejected from any match shall be retained after
+							the match by the referee. The pass of any individual who has received a
+							third caution (yellow card) during a playing year shall be confiscated by
+							the referee at the conclusion of the match in which the third caution was
+							received. That player will be suspended from playing in the next game in
+							which the offending participant would otherwise be eligible to participate.
+							This process will continue so that for every third yellow card received
+							during a playing year, the player will be suspended from playing in the
+							next game (after the receipt of a third yellow card) for which the offending
+							participate would otherwise be eligible to participate. The referee shall
+							deliver all confiscated passes to the UYSA State Office within forty-eight
+							(48) hours of the conclusion of the match.
+						</li>
+					</ul>
+					<h3 class="list">ALL-PLAY</h3>
+					<ul>
+						<li>
+							All-play means that every recreation player on every team shall play at
+							least fifty percent of each game. Coaches in the competition program are
+							encouraged to play their players 50% of each game.
+							<ul>
+								<li id="circulovacio">
+									A Coach shall be permitted to not play a player 50% of each game
+									under special circumstances, e.g., unexcused absences from
+									practice and/or games, ungentlemanly conduct at practice and/or
+									games, and injuries.
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<h3 class="list">PLAYERS’ EQUIPMENT</h3>
+					<ul>
+						<li>
+							Where the uniform colors of both teams are so similar that the referee
+							orders a change, the designated home team must change to colors
+							distinct from those of the opponent.
+						</li>
+					</ul>
+					<h3 class="list">MIXED TEAMS</h3>
+					<ul>
+						<li>
+							<span class="spanitems">GIRLS PLAYING ON BOYS’ TEAMS.</span> Girls are eligible to play on boys’ teams with parent/guardian permission.
+						</li>
+						<li>
+							<span class="spanitems">TYPES OF TEAMS.</span> Teams with females only are Girls Teams. All others
+							are Boys Teams.
+
+						</li>
+					</ul>
+					<h3 class="list">COACHING FROM THE SIDELINES</h3>
+					<ul>
+						<li>
+							Coaching from the sidelines, i.e., giving direction to one’s own team on
+							points of strategy and position, is permitted provided that:
+							<ol>
+								<li>
+									No mechanical, electrical or other devices are used to amplify the
+									voice.
+								</li>
+								<li>
+									The tone of voice is informative and not a harangue.
+								</li>
+								<li>
+									The coaching takes place within the team’s bench area.
+								</li>
+								<li>
+									No coach, substitute, player or spectator is to make derogatory
+									remarks or gestures to the referees, linesmen, players, substitutes
+									or spectators.
+								</li>
+								<li>
+									No coach, player, substitute or spectator is to use profanity or
+									incite, in any manner, disruptive behavior of any kind.
+								</li>
+							</ol>
+						</li>
+					</ul>
+					<h3 class="list">GAME TERMINATION</h3>
+					<ul>
+						<li>
+							Any game terminated after 15 minutes into the second half by the referee
+							by reason of the elements, or by reason of grave disorder on the part of
+							the coaches, players or spectators of a team that is losing at the point that
+							the game is terminated, shall stand as a completed game. If a team is
+							ahead and the game is called because of their actions they will lose the
+							game 1-0.
+						</li>
+					</ul>
+					<h3 class="list">CONDITIONS OF REPLAY OF GAMES</h3>
+					<ul>
+						<li>
+							Any game which is required to be replayed as a result of any protest or
+							appeal, shall be subject to the following conditions:
+							<ol>
+								<li>
+									The game shall be replayed on the same field, as was the
+									suspended or protested game, unless otherwise agreed by the
+									coaches.
+								</li>
+								<li>
+									Impartial referees shall be assigned to the new game.
+								</li>
+								<li>
+									The PROTEST AND APPEALS COMMITTEE shall have the power
+									to impose such additional conditions on the replay of the game, as
+									it deems appropriate under the circumstances.
+								</li>
+							</ol>
+						</li>
+					</ul>
+					<h3 class="list">REFEREE RESPONSIBLITIES</h3>
+					<ul>
+						<li>
+							The referee shall verify the identity of the players and coaches with his/her
+							player pass. He shall collect the passes of those players and coaches who
+							are to participate in the game. The referee must allow no player into the
+							game for whom he/she has no pass.
+						</li>
+						<li>
+							Upon completion of the game, the referee shall send his/her report to the
+							UYSA offices within four (4) days, holidays excluded. If a coach or a
+							player is ejected, the referee report form is required within forty-eight (48)
+							hours along with the player/coach pass.
+						</li>
+						<li>
+							A referee report form must be filed for every game played.
+						</li>
+						<li>
+							Each team must determine whether or not referees are registered prior to
+							the start of each game. Upon request, referees officiating at any game
+							must willingly and without bias, show documentation regarding their
+							certification level and registration standing with the USSF to coach,
+							assistant coach, or team captain of teams participating in that game. Prior
+							to the game a coach may decide to postpone the game if the referees do
+							not produce the requested documentation. The game is to be replayed at
+							a later date.
+						</li>
+						<li>
+							Referees not complying with this section will be referred to the Disciplinary
+							Committee.
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section id="sche">
+				<nav>
+
+					<a href="#home" class="noseleccionado">Home</a>
+					<a href="#about" class="noseleccionado">About</a>
+					<a href="#contact" class="noseleccionado">Contact</a>
+					<a href="#rules" class="noseleccionado">Rules</a>
+					<a href="#sche" id="seleccionado">Schedule</a>
+					<a href="#form" class="noseleccionado">Register</a>
+
+				</nav>
+				<div id="divsub">
+					<h2 id="text">NYSL GAME INFORMATION</h2>	
+				</div>
+				<h3 id="h3-schedule">Fall Schedule</h3>
+				<p id="p-schedule">* All games take place on Saturday.</p>
+				<div id="contenedor-tablas">
+					<table id="tabla1" class="tableconfig">
+						<thead>
+							<tr>
+								<th>September</th>
+								<th>Teams</th>
+								<th>Location</th>
+								<th>Times</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td rowspan="2" class="fecha">9/01</td>
+								<td>U1 and U4</td>
+								<td>AJ Katzenmaier</td>
+								<td>9:30 a.m.</td>
+							</tr>
+							<tr>
+								<td>U3 and U2</td>
+								<td>Greenbay</td>
+								<td>1:00 p.m.</td>
+							</tr>
+							<tr>
+								<td rowspan="2" class="fecha">9/08</td>
+								<td>U5 and U6</td>
+								<td>Howard A Yeager</td>
+								<td>9:30 a.m.</td>
+							</tr>
+							<tr>
+								<td>U6 and U1</td>
+								<td>Marjorie P Hart</td>
+								<td>1:00 p.m.</td>
+							</tr>
+							<tr>
+								<td rowspan="2" class="fecha">9/15</td>
+								<td>U2 and U4</td>
+								<td>North</td>
+								<td>9:30 a.m.</td>
+							</tr>
+							<tr>
+								<td>U3 and U5</td>
+								<td>AJ Katzenmaier</td>
+								<td>1:00 p.m.</td>
+							</tr>
+							<tr>
+								<td rowspan="2"
+								class="fecha">9/22</td>
+								<td>U1 and U3</td>
+								<td>South</td>
+								<td>9:30 a.m.</td>
+							</tr>
+							<tr>
+								<td>U2 and U6</td>
+								<td>Howard A Yeager</td>
+								<td>1:00 p.m.</td>
+							</tr>
+							<tr>
+								<td class="fecha">9/29</td>
+								<td>U4 and U5</td>
+								<td>Greenbay</td>
+								<td>9:30 a.m.</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="tableconfig">
+						<thead>
+							<tr>
+								<th>October</th>
+								<th>Teams</th>
+								<th>Location</th>
+								<th>Times</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td rowspan="2" class="fecha">10/06</td>
+								<td>U1 and U5</td>
+								<td>Marjorie P Hart</td>
+								<td>9:30 a.m.</td>
+							</tr>
+							<tr>
+								<td>U1 and U6</td>
+								<td>South</td>
+								<td>1:00 p.m.</td>
+							</tr>
+							<tr>
+								<td rowspan="2" class="fecha">10/13</td>
+								<td>U3 and U4</td>
+								<td>Howard A Yeager</td>
+								<td>9:30 a.m.</td>
+							</tr>
+							<tr>
+								<td>U5 and U1</td>
+								<td>Greenbay</td>
+								<td>1:00 p.m.</td>
+							</tr>
+							<tr>
+								<td rowspan="2" class="fecha">10/20</td>
+								<td>U6 and U3</td>
+								<td>North</td>
+								<td>9:30 a.m.</td>
+							</tr>
+							<tr>
+								<td>U2 and U4</td>
+								<td>Marjorie P Hart</td>
+								<td>1:00 p.m.</td>
+							</tr>
+							<tr>
+								<td rowspan="2" class="fecha">10/27</td>
+								<td>U3 and U1</td>
+								<td>AJ Katzenmaier</td>
+								<td>9:30 a.m.</td>
+							</tr>
+							<tr>
+								<td>U5 and U6</td>
+								<td>Howard A Yeager</td>
+								<td>1:00 p.m.</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="tablefin">
+						<tr>
+							<th colspan="3">
+								GAME LOCATIONS
+							</th>
+						</tr>
+						<tr>
+							<td>AJ Katzenmaier Elementary</td>
+							<td>24 W. Walton St., Chicago, IL 60610</td>
+							<td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.654060426128!2d-87.63123908549056!3d41.900296372005464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f6bac3%3A0x68a82e5d59952c86!2s24%20W%20Walton%20St%2C%20Chicago%2C%20IL%2060610%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sbr!4v1579199323659!5m2!1ses-419!2sbr" class="maps"></iframe></td>
+						</tr>
+						<tr>
+							<td>Greenbay Elementary</td>
+							<td>1734 N. Orleans St., Chicago, IL 60614</td>
+							<td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.0256986745044!2d-87.64002798549001!3d41.91380627115963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34073f306a3%3A0x9e1726bbf8f23f0e!2s1734%20N%20Orleans%20St%2C%20Chicago%2C%20IL%2060614%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sbr!4v1579199511742!5m2!1ses-419!2sbr" class="maps" ></iframe></td>
+						</tr>
+						<tr>
+							<td>Howard A Yeager Elementary</td>
+							<td>2245 N. Southport Ave., Chicago, IL 60614</td>
+							<td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.5854973846463!2d-87.6651145854896!3d41.92326857056697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f9b8d2d%3A0x62ad8b907dd755d6!2s2245%20N%20Southport%20Ave%2C%20Chicago%2C%20IL%2060614%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sbr!4v1579199566539!5m2!1ses-419!2sbr" class="maps"></iframe></td>
+						</tr>
+						<tr>
+							<td>Marjorie P Hart Elementary</td>
+							<td>2625 N. Orchard St., Chicago, IL 60614</td>
+							<td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.9260145857943!2d-87.6479623675864!3d41.929548102963956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2630e551%3A0x3e719e44a5cef714!2s2625%20N%20Orchard%20St%2C%20Chicago%2C%20IL%2060614%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sbr!4v1579199626148!5m2!1ses-419!2sbr" class="maps"></iframe></td>
+						</tr>
+						<tr>
+							<td>North Elementary</td>
+							<td>1409 N. Ogden Ave., Chicago, IL 60610</td>
+							<td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.3375536949375!2d-87.64837698549029!3d41.907101771579455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd33af0e6ccc3%3A0x26c81c1d557667da!2s1409%20N%20Ogden%20Ave%2C%20Chicago%2C%20IL%2060610%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sbr!4v1579199651460!5m2!1ses-419!2sbr" class="maps"></iframe></td>
+						</tr>
+						<tr>
+							<td>South Elementary</td>
+							<td>2101 N. Fremont St., Chicago, IL 60614</td>
+							<td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.747764826531!2d-87.65355538548975!3d41.919780770785465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3196fb41dc7%3A0x970be7f7d6336df5!2s2101%20N%20Fremont%20St%2C%20Chicago%2C%20IL%2060614%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sbr!4v1579199690917!5m2!1ses-419!2sbr" class="maps"></iframe></td>
+						</tr>
+					</table>
+				</div>
+				<p><strong>Facility Type:</strong> Outdoor</p>
+				<p><strong>Additional Information:</strong>If deemed necessary by NYSL, games may be shortened or
+				cancelled due to extreme weather conditions.</p>
+				<p><strong>Please direct all questions to:</strong> Michael Randall, League Coordinator</p>
+				<div class="contactodetablas">
+					<p><strong>Phone:</strong> (630) 690-8132</p>
+					<p id="emailtable"><strong>Email:</strong> michael.randall@chisoccer.org</p>
+				</div>
+			</section>
+			<script type="text/javascript">
+				window.location.hash = "#home"
+			</script>
+		</body>
+		</html>
